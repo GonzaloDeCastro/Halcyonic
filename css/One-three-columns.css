@@ -9,6 +9,7 @@ body {
 .onecolumn-content, .content-aside{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 45px 0 45px 0;
     background-image: url(../img/bg04.png);
     background-color:#f7f7f7;
@@ -47,23 +48,23 @@ p{
 a {
     color: #ED391B;
 }
- {
-    display: flex;
-    justify-content: center;
-}
+ 
 
-.aside {
+
+.caja{
+ 
   background-color: #fff;
   width: 300px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%); 
+ 
+    
 }
 
-.aside.2 {
-  order: 0;
-}
 
-.aside.1 {
-  order: 3;
-  color: #red;
+.aside.tres {
+  display:flex;
+  flex-direction: column-reverse;
 }
-
 
