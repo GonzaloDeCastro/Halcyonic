@@ -4,14 +4,14 @@
 }
 
 body {
-  background-image: url(img/bg03.jpg);
+  background-image: url(/img/bg03.jpg);
 }
 .HeaderNavContent
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(img/bg01.jpg);
+    background-image: url(/img/bg01.jpg);
     color:#c6c8c8
 
     
@@ -37,7 +37,7 @@ body {
 img {
   padding: 10px;
   background-color: #fff;
-  background-image: url(img/bg04.png);
+  background-image: url(/img/bg04.png);
   
 }
 
@@ -45,7 +45,7 @@ img {
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  background-image: url(img/bg01.jpg);
+  background-image: url(/img/bg01.jpg);
   padding: 35px 0 35px 0;
 
 }
@@ -81,7 +81,7 @@ button {
     display: flex;
     flex-flow: wrap;
     justify-content: center;  
-    background-image: url(img/bg02.jpg);
+    background-image: url(/img/bg02.jpg);
   }
 
   .section2-box {
@@ -112,7 +112,7 @@ button {
   flex-wrap: wrap;
   justify-content: center; 
   background-color: #f7f7f7;
-  background-image: url(img/bg04.png);
+  background-image: url(/img/bg04.png);
  
 }
 .section3-box {
