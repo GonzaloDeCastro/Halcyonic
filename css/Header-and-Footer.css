@@ -63,4 +63,26 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+   .burger{
+    display: none;
+    background: -o-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+		background: -moz-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+		background: -webkit-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+		background: linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+  }
   
+  @media screen and (max-width: 700px){ 
+ 
+
+   nav a{
+     display: none;
+   } 
+    .burger{
+    display: block;
+    background: -o-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+		background: -moz-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+		background: -webkit-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+		background: linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+  }
+  }

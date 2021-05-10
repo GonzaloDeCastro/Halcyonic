@@ -8,7 +8,7 @@ body {
 }
 
 
-img {
+.section-content img {
   padding: 10px;
   background-color: #fff;
   background-image: url(../img/bg04.png);
@@ -34,7 +34,7 @@ img {
   color: #fff;
 }
 
-button {
+.clickme {
    
   display: flex;
   justify-content: center;
