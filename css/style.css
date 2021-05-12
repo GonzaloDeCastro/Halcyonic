@@ -18,9 +18,8 @@ body {
 
 .section1  {
   display: flex;
- /* flex-wrap: wrap-reverse;*/
   justify-content: center;
-  background-image: url(../img/bg01.jpg);
+  padding: 15px;
 }
 
 
@@ -50,15 +49,14 @@ body {
 
 .section2  {
     display: flex;
-   /* flex-flow: wrap;*/
+
     justify-content: center;  
-    box-sizing: border-box;
    
   }
 
   .section2-box {
     display: flex;
-    flex-flow:wrap column;
+    flex-flow: column;
     margin: 20px 20px 20px 0px; 
 
   } 
@@ -79,7 +77,6 @@ body {
   
 .section3  {
   display: flex;
-/*  flex-wrap: wrap;*/
   justify-content: center; 
   background-color: #f7f7f7;
  
@@ -89,14 +86,28 @@ body {
     margin: 25px 20px 25px 0;
     padding: 40px 30px 45px 30px;
     width: 300px;
-    height: 510px;
+    height: 460px;
     background-color: #fff;
     box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
 }
-.section3-box img{
-  
+.section3-box img{  
 width: 100%;
 }
+
+
+.section3-box.item img{
+  width: 40px;
+  height: 40px;
+  }
+.section3-box.size img{
+  width: 60px;
+  height: 60px;
+  }
+
+  .section3-box.size p{
+    font-style: italic;
+  }
+
 .section3-box h2{
   margin: 0 0 0.25em 0;
   font-size: 1.8em;
@@ -109,8 +120,14 @@ width: 100%;
     color: #96a9b5;    
 }
 
+.section3-box-content {
+  display: flex;
+  justify-content: space-around;
+}
 
-/* Agregado a ultimo momento */
+
+
+/* Enmaquetado general*/
 .flex-content1 {
   display: flex;
   justify-content: center;
@@ -149,3 +166,18 @@ width: 100%;
  /* border: solid;*/
 }
 
+
+@media screen and (max-width: 700px){ 
+  .section1  {
+ 
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+  }
+
+  .section2-box {
+
+    margin: 20px 120px 20px 100px; 
+
+  } 
+}
