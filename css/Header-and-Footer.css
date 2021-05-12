@@ -1,9 +1,9 @@
-.HeaderNavContent
+.HeaderNavContent  
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(../img/bg01.jpg);
+    background-image: url(../img/bg01.jpg); 
     color:#c6c8c8
 
     
@@ -37,14 +37,14 @@ footer {
   
   .footer1 {
     margin-right: 5%;
-    /*border: solid;*/
     padding: 25px 0 0 25px;
   }
   
   footer h2 {
+    margin: 0 0 1em 0;
     font-size: 1.25em;
-      color: #212f35;
-      margin: 0 0 1em 0;
+     color: #212f35;
+      
   }
   
   .links-footer {
@@ -74,6 +74,17 @@ footer {
   
   @media screen and (max-width: 700px){ 
  
+    .HeaderNavContent
+   {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/bg01.jpg); 
+    color:#c6c8c8
+
+    
+    } 
+
 
    nav a{
      display: none;
