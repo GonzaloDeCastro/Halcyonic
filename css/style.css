@@ -3,27 +3,29 @@
     font-family: "Yanone Kaffeesatz", serif
 }
 
-body {
+body{
   background-image: url(../img/bg03.jpg);
 }
 
 
-.section-content .section1 img, .section-content .section2 img {
+.section-content .section1 img, .section-content .section2 img{
   width: 100%;
   padding: 10px;
   background-color: #fff;
   background-image: url(../img/bg04.png);
   
 }
-
-.section1  {
+.section1, .section2, .section3, .clickme, .section3-box-content, .flex-content0, .flex-content1, .flex-content2, .flex-content3 {
   display: flex;
   justify-content: center;
+}
+
+.section1{
   padding: 15px;
 }
 
 
-.section1 p  {
+.section1 p{
   margin: 0 0 1em 0;
   padding-right: 1em;
   font-size: 2em;
@@ -31,10 +33,8 @@ body {
   color: #fff;
 }
 
-.clickme {
-   
-  display: flex;
-  justify-content: center;
+
+.clickme{
   color: #fff;
   height: 2em;
   line-height: 2.125em;
@@ -47,42 +47,28 @@ body {
 }
 
 
-.section2  {
-    display: flex;
 
-    justify-content: center;  
-   
-  }
-
-  .section2-box {
+  .section2-box{
     display: flex;
     flex-flow: column;
     margin: 20px 20px 20px 0px; 
 
   } 
 
-  .section2-box h2 {
+  .section2-box h2{
     font-size: 1.25em;
     color: #fff;
   }
 
-  .section2-box p {  
+  .section2-box p{  
     color: grey;
   }
-  .section2-box a {  
+  .section2-box a{  
     color: #fff;
   }
 
 
-  
-.section3  {
-  display: flex;
-  justify-content: center; 
-  background-color: #f7f7f7;
- 
-}
-.section3-box {
-  
+.section3-box {  
     margin: 25px 20px 25px 0;
     padding: 40px 30px 45px 30px;
     width: 300px;
@@ -99,6 +85,7 @@ width: 100%;
   width: 40px;
   height: 40px;
   }
+
 .section3-box.size img{
   width: 60px;
   height: 60px;
@@ -121,46 +108,36 @@ width: 100%;
 }
 
 .section3-box-content {
-  display: flex;
   justify-content: space-around;
 }
 
 
-
 /* Enmaquetado general*/
-.flex-content1 {
-  display: flex;
-  justify-content: center;
+.flex-content0 {
   margin: 0;
   padding: 1px;
   background-image: url(../img/bg01.jpg); 
 }
 
-.flex-content2{
-  display: flex;
-  justify-content: center;
+.flex-content1{
   margin: 0;
   padding: 1px;
   background-image: url(../img/bg01.jpg);
 }
 
-.flex-content3{
-  display: flex;
-  justify-content: center;
+.flex-content2{
   margin: 0;
   padding: 1px;
   background-image: url(../img/bg02.jpg);
 }
-.flex-content4{
-  display: flex;
-  justify-content: center;
+.flex-content3{
   margin: 0;
   padding: 1px;
   background-color: #f7f7f7;
   background-image: url(../img/bg04.png);
 }
 
-.contenedor-seccion {
+.contenedor-seccion{
   
   width: 1000px;
  /* border: solid;*/
@@ -168,14 +145,14 @@ width: 100%;
 
 
 @media screen and (max-width: 700px){ 
-  .section1  {
+  .section1{
  
     flex-wrap: wrap-reverse;
     justify-content: center;
     
   }
 
-  .section2-box {
+  .section2-box{
 
     margin: 20px 120px 20px 100px; 
 
