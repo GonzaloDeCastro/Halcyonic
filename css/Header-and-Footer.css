@@ -1,11 +1,13 @@
 .HeaderNavContent  
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-image: url(../img/bg01.jpg); 
-    color:#c6c8c8
+    color:#c6c8c8;
+  
 
+    
     
 }
 .HeaderNavContent a
@@ -31,7 +33,8 @@ footer {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
-    padding: 45px 0 45px 0;
+    padding-left: 100px ;
+    padding-right: 100px;
   
   }
   
@@ -73,7 +76,13 @@ footer {
   }
   
   @media screen and (max-width: 700px){ 
+
+    *{
+      flex-wrap: wrap;
+        
+    }
  
+    
     .HeaderNavContent
    {
     display: flex;

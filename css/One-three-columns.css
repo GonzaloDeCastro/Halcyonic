@@ -9,7 +9,8 @@ body {
 .onecolumn-content, .content-aside{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;*/
+    align-items: flex-start;
     padding: 45px 0 45px 0;
     background-image: url(../img/bg04.png);
     background-color:#f7f7f7;
@@ -17,29 +18,27 @@ body {
     
   }
   .onecolumn-box{
-  
+    width:100%;
     padding: 0px 0 0 25px;
   
   }
   .onecolumn-content section {
-      margin: 0px 180px 0px 180px; 
+      background: #fff;
       padding: 40px 30px 45px 30px;
-      box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
-      background: #fff;          
-     
-}
+      box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%); 
+    
+  }
 
 
   h2 {
-    margin: 0 0 0.25em 0
     font-size: 1.8em;
     color: #373f42;
-    
+    margin: 0 0 0.25em 0
   }
   
  h3{
-    font-size: 1.25em;
     color: #96a9b5;
+      font-size: 1.25em;
   }
   
 p{
@@ -53,14 +52,18 @@ a {
 
 
 .caja{
-  margin: 10px;
-  width: 300px;
-  padding: 20px;
-  box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
+ 
   background-color: #fff;
-        
+  width: 230px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%); 
+ 
+    
 }
-
+.caja.unica {
+  width: 480px;
+}
 
 .aside.tres {
   display:flex;

@@ -8,7 +8,8 @@ body {
 }
 
 
-.section-content img {
+.section-content .section1 img, .section-content .section2 img {
+  width: 100%;
   padding: 10px;
   background-color: #fff;
   background-image: url(../img/bg04.png);
@@ -17,9 +18,8 @@ body {
 
 .section1  {
   display: flex;
-  flex-wrap: wrap-reverse;
+ /* flex-wrap: wrap-reverse;*/
   justify-content: center;
-  padding: 35px 0 35px 0;
   background-image: url(../img/bg01.jpg);
 }
 
@@ -50,15 +50,17 @@ body {
 
 .section2  {
     display: flex;
-    flex-flow: wrap;
+   /* flex-flow: wrap;*/
     justify-content: center;  
-    background-image: url(../img/bg02.jpg);
+    box-sizing: border-box;
+   
   }
 
   .section2-box {
     display: flex;
     flex-flow:wrap column;
     margin: 20px 20px 20px 0px; 
+
   } 
 
   .section2-box h2 {
@@ -77,18 +79,24 @@ body {
   
 .section3  {
   display: flex;
-  flex-wrap: wrap;
+/*  flex-wrap: wrap;*/
   justify-content: center; 
   background-color: #f7f7f7;
-  background-image: url(../img/bg04.png);
  
 }
 .section3-box {
+  
     margin: 25px 20px 25px 0;
     padding: 40px 30px 45px 30px;
+    width: 300px;
+    height: 510px;
     background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
 }
-
+.section3-box img{
+  
+width: 100%;
+}
 .section3-box h2{
   margin: 0 0 0.25em 0;
   font-size: 1.8em;
@@ -102,6 +110,42 @@ body {
 }
 
 
+/* Agregado a ultimo momento */
+.flex-content1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1px;
+  background-image: url(../img/bg01.jpg); 
+}
 
+.flex-content2{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1px;
+  background-image: url(../img/bg01.jpg);
+}
 
+.flex-content3{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1px;
+  background-image: url(../img/bg02.jpg);
+}
+.flex-content4{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1px;
+  background-color: #f7f7f7;
+  background-image: url(../img/bg04.png);
+}
+
+.contenedor-seccion {
+  
+  width: 1000px;
+ /* border: solid;*/
+}
 
